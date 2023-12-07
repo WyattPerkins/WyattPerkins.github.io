@@ -1,0 +1,154 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+h2, 
+h4, 
+h5 {
+    margin: 0;
+    padding: 10px;
+    padding-bottom: 15px;
+}
+
+/*Header*/
+.header {
+    width: 100%;
+    height: 69px;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    border-bottom: 1px solid seashell;
+   }
+
+.logo {
+    max-height: 50px;
+    float: left;
+    padding: 10px 10px;
+    color: seashell;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    font-family: 'Helvetica';
+    font-size: 22px;
+    color: seashell;
+}
+
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    text-decoration: underline;
+   
+}
+
+/*Our Mission*/
+.mission-container {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*ff5eip*_ga*MTU2ODgxMDkwLjE2NzIxNTM3NTE.*_ga_3LRZM6TM9L*MTY3NDA0OTYwMy42MC4xLjE2NzQwNDk2MDcuMC4wLjA.');
+    height: 700px;
+    max-width: 1200px;
+    margin: 70px auto 70px auto;
+    display: flex;
+}
+
+.mission-text {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+
+/*Tea of the Month*/
+
+.tom-text {
+    margin: auto;
+    background-color: black;
+    color: seashell;
+    width: 100%;
+    text-align: center;
+}
+
+.tea-container {
+    display: flex;
+    max-width: 1250px;
+    flex-wrap: wrap;
+    justify-content: center; 
+    padding-bottom: 50px; 
+    margin: 20px 20px;
+}
+
+.tea img {
+    width: 300px;
+    height: 200px;
+    padding: 10px 10px;
+    
+}
+
+.tea figcaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Locations*/
+
+#Locations {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*js5bjx*_ga*MTU2ODgxMDkwLjE2NzIxNTM3NTE.*_ga_3LRZM6TM9L*MTY3NDA0OTYwMy42MC4xLjE2NzQwNDk2MDcuMC4wLjA.');
+    height: 500px;
+    max-width: 1200px;
+    margin: 20px auto 20px auto;
+    padding-top: 70px;
+}
+
+.box-container {
+    
+    width: 1200px;
+    margin: auto;  
+    display: flex; 
+    text-align: center;
+    justify-content: center;
+   
+}
+
+.box {
+    opacity: 1.0;
+    padding: 10px;
+    margin: 5px 20px;
+    background-color: black;
+    flex-basis: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+P {
+    font-size: 20px;
+}
+
+/*Contact information & Footer*/
+
+#contact {
+    text-align: center;
+    height: 200px;
+    width: 100%;
+}  
+
+
+footer {
+    text-align: left;
+    padding-left: 20px;
+}
